@@ -1,0 +1,12 @@
+# pycharm
+.idea
+
+# environments
+.env
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# logger
+loger.log
