@@ -1,10 +1,10 @@
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, async_sessionmaker
 
-from core.settings.configer import postgres_url
+from core.settings.config import config
 
 
 async_engine = create_async_engine(
-    url=postgres_url,
+    url=config.POSTGRES_URL,
     echo=True,
 )
 
